@@ -33,6 +33,46 @@ a {
   color: var(--text-links);
   text-decoration: none;
 }
+/* Navigation bar */
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #343a40;
+  color: #fff;
+  height: 80px;
+}
+
+/* Navigation bar brand */
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Navigation bar links */
+.navbar-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-link {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #f1c40f;
+}
+
 .navbar {
   border-bottom: 1px solid #ccc;
   position: fixed;
