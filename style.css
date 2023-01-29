@@ -55,6 +55,7 @@ a {
 .navbar-nav {
   display: flex;
   margin-left: auto;
+  boject-fit:content;
 }
 
 .nav-item {
